@@ -2,7 +2,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { AuthGuard } from './_guards/index';
 import { HomeComponent } from './home/index';
 import { LoginComponent } from './login/index';
-import { Route } from '@angular/compiler/src/core';
+//import { Route } from '@angular/compiler/src/core';
 
 const appRoutes: Routes = [
     { path: 'login', component: LoginComponent },
